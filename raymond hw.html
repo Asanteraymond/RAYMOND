@@ -5,8 +5,17 @@
     <meta author="raymond">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Profile</title>
+    <style>
+        form {
+            background-color: lightgrey;
+            border: 2px chocolate;
+            box-sizing: border-box;
+            box-sizing: content-box;
+        }
+    </style>
 </head>
 <body style="background-color: rgb(192, 164, 138);">  
+     
     <ul>
         <li><a href="">Home</a></li>
         <li><a href="">My Contact</a></li>
@@ -23,5 +32,44 @@
     <video controls width="200px">
         <source src="images/raymonds.mp4" type="">
     </video>
+    <form>
+        <div>
+            <p>
+                <label for="username">Username </label>
+                <input type="text">
+            </p>
+        </div>
+        <div>
+            <p>
+                <label for="username">Contact</label>
+                <input type="text">
+            </p>
+        </div>
+        <div>
+            <p>
+                <label for="username">email</label>
+                <input type="text">
+            </p>
+        </div>
+        <div>
+            <p>
+                <label for="">country</label>
+                <select >
+                    <option value="">usa</option>
+                    <option value="">austraila</option>
+                    <option value="">belguim</option>
+                    <option value="">france</option>
+                    <option value="">japan</option>
+                </select>
+            </p>
+        </div>
+        <div>
+            <p>
+                <label for="">date</label>
+                <input type="date">
+            </p>
+        </div>
+       
+    </form>
 </body>
 </html>        
