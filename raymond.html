@@ -5,6 +5,7 @@
     <meta author="raymond">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Profile</title>
+    <link rel="stylesheet" href="styles.css">
     <style>
         form {
             background-color: lightgrey;
@@ -14,46 +15,48 @@
         }
     </style>
 </head>
-<body style="background-color: rgb(192, 164, 138);">  
-     
+<body>  
+     <nav>
     <ul>
         <li><a href="">Home</a></li>
         <li><a href="">My Contact</a></li>
         <li><a href="">My project</a></li>
     </ul>
+      </nav>
     <h1>Raymond Kwabena Asante</h1>
-    <img src="images/RAY.jpg" alt="My Picture"  height="200px" width="200px">
+    <img src="images/Background.webp" alt="My Picture"  height="500px" width="100%">
     <p>I am Raymond and i like food</p>
     <h2>Ransom</h2>
     <audio controls>
         <source src="images/tubidymp3.lol - Lil Tecca - Ransom (Lyrics) (320 KBps).mp3" type="">
     </audio>
-    <p>ny lil Tecca</p>
+    <p>lil Tecca</p>
     <video controls width="200px">
         <source src="images/raymonds.mp4" type="">
     </video>
+    <section>
     <form>
         <div>
             <p>
-                <label for="username">Username </label>
+               <div> <label for="username">Username </label> </div> 
                 <input type="text">
             </p>
         </div>
         <div>
             <p>
-                <label for="username">Contact</label>
+               <div> <label for="username">Contact</label></div>
                 <input type="text">
             </p>
         </div>
         <div>
             <p>
-                <label for="username">email</label>
+               <div><label for="username">email</label></div> 
                 <input type="text">
             </p>
         </div>
         <div>
             <p>
-                <label for="">country</label>
+               <div> <label for="">country</label></div>
                 <select >
                     <option value="">usa</option>
                     <option value="">austraila</option>
@@ -65,11 +68,12 @@
         </div>
         <div>
             <p>
-                <label for="">date</label>
+              <div> <label for="">date</label></div> 
                 <input type="date">
             </p>
         </div>
-       
     </form>
+</section>
+    
 </body>
 </html>        
